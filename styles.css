@@ -112,3 +112,30 @@ footer {
     line-height: 2;
     font-size: 14px;
 }
+
+.about-page {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(images/about-img.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.about-page h1 {
+    color: #6d280c;
+    font-weight: 800;
+}
+
+.about-page p {
+    color: #5c2008;
+    font-family: 'Merienda', cursive;
+    font-weight: 800;
+    padding: 20px;
+    line-height: 2;
+}
+
+.paragraph {
+    background-color: rgba(236, 229, 229, 0.245);
+    border-radius: 5px;
+}
+
+
