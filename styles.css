@@ -77,6 +77,9 @@ footer {
     color: white;
     padding-top: 20px;
     padding-bottom: 5px;
+    position: static;
+    bottom: 0;
+
 }
 
 .item {
@@ -89,8 +92,7 @@ footer {
     box-shadow: 2px 2px 2px 2px rgba(68, 66, 65, 0.267);
 }
 
-.donuts-page h1,
-.coffee-page h1 {
+.title {
     color: #6d280c;
     font-weight: 800;
 }
@@ -108,18 +110,9 @@ footer {
     font-size: 14px;
 }
 
-.description {
-    line-height: 2;
-    font-size: 14px;
-}
 
 .about-page {
     background-color: rgb(249,166,26)
-}
-
-.about-page h1 {
-    color: #6d280c;
-    font-weight: 800;
 }
 
 .about-page p {
@@ -133,6 +126,18 @@ footer {
 
 .about-page img {
     border-radius: 10px;
+}
+
+.contact-page {
+    background: url('images/jco-store.webp') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;
+}
+
+.contact-page .container {
+    opacity: 90%;
 }
 
 
