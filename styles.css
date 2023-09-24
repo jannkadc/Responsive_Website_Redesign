@@ -114,7 +114,7 @@ footer {
 }
 
 .about-page {
-    background-color: #efe9e6cf;
+    background-color: rgb(249,166,26)
 }
 
 .about-page h1 {
@@ -123,11 +123,12 @@ footer {
 }
 
 .about-page p {
-    color: #b54012;
+    color: #5c2916;
     font-family: 'Merienda', cursive;
     font-weight: 800;
     padding: 20px;
     line-height: 2;
+    font-size: 20px;
 }
 
 .about-page img {
